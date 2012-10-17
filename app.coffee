@@ -1,5 +1,6 @@
 #!/usr/bin/env coffee
 
+
 express = require 'express'
 conect = require 'connect'
 stylus = require 'stylus'
@@ -9,7 +10,7 @@ slashes = require 'connect-slashes'
 http = require 'http'
 path = require 'path'
 
-app = express()
+app = module.exports = express()
 
 app.configure ()->
   app.set 'port', process.env.PORT || 3000

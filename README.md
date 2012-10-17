@@ -2,12 +2,12 @@ A template for developing express.js project with coffee-script.
 
 Inspired from https://github.com/twilson63/express-coffee and https://github.com/alfrednerstu/node-express-coffeescript .
 
-It consists some "best practise" for express.js and coffee-script development.
+It consists of some "best practise" for express.js and coffee-script development.
 
 Install:
 
 ```
-# assuming node and npm and git have been installed...
+# assuming that node and npm and git have been installed...
 npm install nodemon -g
 npm install coffee-script -g
 git clone https://github.com/fyears/exprcoffee.git [project-name]
