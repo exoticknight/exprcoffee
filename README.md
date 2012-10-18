@@ -18,14 +18,14 @@ npm install
 Develop:
 
 ```
-nodemon server.js  # or nodemon app.coffee
+nodemon app.js  # or nodemon app.coffee
 # then edit *.coffee and *.jade and any files
 ```
 
 For production:
 
 ```
-node server.js  # or coffee app.coffee
+node app.js  # or coffee app.coffee
 ```
 
 Place any `*.coffee` files (for server side) just as is developing `*.js` files. Place client side `*.coffee` files in `./assets/js/`. Place `*.styl` files in `./assets/css/`.

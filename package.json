@@ -13,8 +13,8 @@
     , "stylus": "*"
     , "nib": "*"
   }, "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   }, "devDependencies": {
   }, 
   "engines": {
