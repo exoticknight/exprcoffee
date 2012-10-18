@@ -14,7 +14,7 @@
     , "nib": "*"
   }, "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.coffee"
+    "dev": "node-dev app.coffee"
   }, "devDependencies": {
   }, 
   "engines": {

@@ -1,4 +1,4 @@
-A template for developing express.js project with coffee-script.
+A template for developing express.js project with coffeescript.
 
 Inspired from https://github.com/twilson63/express-coffee and https://github.com/alfrednerstu/node-express-coffeescript .
 
@@ -8,7 +8,7 @@ Install:
 
 ```
 # assuming that node and npm and git have been installed...
-npm install nodemon -g
+npm install node-dev -g
 npm install coffee-script -g
 git clone https://github.com/fyears/exprcoffee.git [project-name]
 cd [project-name]
@@ -18,7 +18,7 @@ npm install
 Develop:
 
 ```
-nodemon app.coffee  # shouldn't use nodemon app.js because it won't restart program automatically sometimes
+node-dev app.coffee
 # then edit *.coffee and *.jade and any files
 ```
 
