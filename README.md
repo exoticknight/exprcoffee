@@ -2,7 +2,7 @@ A template for developing express.js project with coffee-script.
 
 Inspired from https://github.com/twilson63/express-coffee and https://github.com/alfrednerstu/node-express-coffeescript .
 
-It consists of some "best practise" for express.js and coffee-script development.
+It consists of some "good practises" for express.js and coffee-script development.
 
 Install:
 
@@ -18,14 +18,16 @@ npm install
 Develop:
 
 ```
-nodemon app.js  # or nodemon app.coffee
+nodemon app.coffee  # shouldn't use nodemon app.js because it won't restart program automatically sometimes
 # then edit *.coffee and *.jade and any files
 ```
 
 For production:
 
 ```
-node app.js  # or coffee app.coffee
+NODE_ENV=production node app.js
+## or:
+NODE_ENV=production coffee app.coffee
 ```
 
 Place any `*.coffee` files (for server side) just as is developing `*.js` files. Place client side `*.coffee` files in `./assets/js/`. Place `*.styl` files in `./assets/css/`.

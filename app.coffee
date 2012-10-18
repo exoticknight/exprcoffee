@@ -34,6 +34,12 @@ app.configure ()->
   return
 
 app.configure 'development', ()->
+  app.use express.errorHandler
+    dumpExceptions: true
+    showStack: true
+  return
+
+app.configure 'production', ()->
   app.use express.errorHandler()
   return
 
